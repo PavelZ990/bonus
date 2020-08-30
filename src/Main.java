@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int deposit = 2_000_000_000;
-        int transfer = 500_000_000;
-        int summ = deposit + transfer;
-        System.out.println(summ);
+        double regularBonus = 0.3;
+        double specialBonus = 0.6;
+        double totalBonus = regularBonus + specialBonus;
+        System.out.println(totalBonus);
     }
 }
-
